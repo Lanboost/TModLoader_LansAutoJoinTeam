@@ -1,0 +1,4 @@
+displayName = SimpleHealthbar
+author = Lanboost
+version = 1.0
+side = Client

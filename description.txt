@@ -1,0 +1,1 @@
+SimpleHealthbar adds the standard terraria healthbar to your character too!
