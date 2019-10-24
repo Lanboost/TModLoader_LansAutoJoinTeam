@@ -1,4 +1,6 @@
-displayName = SimpleHealthbar
+displayName = Lan's Auto Join Team
 author = Lanboost
-version = 1.0
-side = Client
+version = 0.1
+includePDB = true
+includeSource = true
+homepage = https://github.com/Lanboost/TModLoader_LansAutoJoinTeam

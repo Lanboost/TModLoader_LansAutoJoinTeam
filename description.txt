@@ -1,1 +1,1 @@
-SimpleHealthbar adds the standard terraria healthbar to your character too!
+Automatically joins the red team whenever you play terraria, perfect for lazy people!
