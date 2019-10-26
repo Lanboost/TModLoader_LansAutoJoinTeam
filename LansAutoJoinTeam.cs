@@ -1,5 +1,6 @@
 using Terraria;
 using Terraria.ModLoader;
+using static Terraria.ModLoader.ModContent;
 
 namespace LansAutoJoinTeam
 {
@@ -17,8 +18,17 @@ namespace LansAutoJoinTeam
 		{
 			base.DrawEffects(drawInfo, ref r, ref g, ref b, ref a, ref fullBright);
 
-			if(Main.player[Main.myPlayer].team != 1) {
-				Main.player[Main.myPlayer].team = 1;
+
+			if(GetInstance<Config>().TeamToJoin < 0 || GetInstance<Config>().TeamToJoin>= 6)
+			{
+				GetInstance<Config>().TeamToJoin = 1;
+			}
+
+			var team = GetInstance<Config>().TeamToJoin;
+
+
+			if (Main.player[Main.myPlayer].team != team) {
+				Main.player[Main.myPlayer].team = team;
 				NetMessage.SendData(45, -1, -1, null, Main.myPlayer, 0f, 0f, 0f, 0, 0, 0);
 			}
 		}
