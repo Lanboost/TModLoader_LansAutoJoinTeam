@@ -1,0 +1,14 @@
+"workshopitem"
+{
+	"appid"		"1281930"
+	"contentfolder"		"C:/Users/Lanboost/Documents/My Games/Terraria/tModLoader/ModSources/LansAutoJoinTeam/artifacts"
+    "previewfile" "C:/Users/Lanboost/Documents/My Games/Terraria/tModLoader/ModSources/LansAutoJoinTeam/icon.png"
+	"visibility"		"0"
+	"title"		"Lan's Auto Join Team"
+	"description"		"Automatically joins the red team whenever you play terraria, perfect for lazy people!
+
+Source at: https://github.com/Lanboost/TModLoader_LansAutoJoinTeam
+"
+	"changenote"		"Version 2022.06.22"
+	"publishedfileid"		"2824438392"
+}
