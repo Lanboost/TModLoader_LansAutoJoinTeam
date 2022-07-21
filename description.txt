@@ -1,3 +1,1 @@
 Automatically joins the red team whenever you play terraria, perfect for lazy people!
-
-Source at: https://github.com/Lanboost/TModLoader_LansAutoJoinTeam
