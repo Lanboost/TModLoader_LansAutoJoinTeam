@@ -11,7 +11,7 @@ namespace LansAutoJoinTeam
 	class Config: ModConfig
 	{
 		// You MUST specify a ConfigScope.
-		public override ConfigScope Mode => ConfigScope.ServerSide;
+		public override ConfigScope Mode => ConfigScope.ClientSide;
 
 
 		[DefaultValue(1)]

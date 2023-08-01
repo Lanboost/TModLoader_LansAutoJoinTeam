@@ -1,6 +1,6 @@
 displayName = Lan's Auto Join Team
 author = Lanboost
-version = 2023.08.01.1
+version = 2023.08.01.2
 includePDB = true
 includeSource = true
 homepage = https://github.com/Lanboost/TModLoader_LansAutoJoinTeam
