@@ -1,5 +1,7 @@
 # Lanboosts Auto Join Team for Terraria (TModLoader)
- Automatically joins the red team whenever you play terraria, perfect for lazy people!
+Automatically joins a team whenever you play terraria, perfect for lazy people!
+
+Which team to join can be changed in config for each client (Default red).
 
 
 # Change log:

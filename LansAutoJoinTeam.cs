@@ -1,5 +1,6 @@
 using Terraria;
 using Terraria.DataStructures;
+using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
@@ -28,9 +29,9 @@ namespace LansAutoJoinTeam
 			var team = GetInstance<Config>().TeamToJoin;
 
 
-			if (Main.player[Main.myPlayer].team != team) {
+			if (Main.player[Main.myPlayer].team == 0) {
 				Main.player[Main.myPlayer].team = team;
-				NetMessage.SendData(45, -1, -1, null, Main.myPlayer);
+				NetMessage.SendData(MessageID.PlayerTeam, -1, -1, null, Main.myPlayer);
 			}
 		}
 	}

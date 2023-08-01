@@ -1,0 +1,10 @@
+Configs: {
+	Config: {
+		DisplayName: Config
+
+		TeamToJoin: {
+			Label: Team that should be joined by each client
+			Tooltip: Valid values are 0-5
+		}
+	}
+}
